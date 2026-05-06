@@ -221,7 +221,7 @@ module Arch
   def self.from_uname(uname_arch)
     case uname_arch.to_s.downcase.strip
     when 'x86_64', 'x64', 'amd64'
-      ARCH_X86_64
+      ARCH_X64
     when 'i686', 'i386', 'i486', 'i586'
       ARCH_X86
     when 'aarch64', 'arm64'
