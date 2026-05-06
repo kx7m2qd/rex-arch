@@ -226,9 +226,9 @@ module Arch
       ARCH_X86
     when 'aarch64', 'arm64'
       ARCH_AARCH64
-    when /\Aarmv[0-9].*l/
+    when /\Aarmv[0-9].*l\Z/
       ARCH_ARMLE
-    when /\Aarmv[0-9].*b/
+    when /\Aarmv[0-9].*b\Z/
       ARCH_ARMBE
     when 'mips'
       ARCH_MIPSBE
