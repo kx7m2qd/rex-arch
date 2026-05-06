@@ -250,9 +250,9 @@ module Arch
       ARCH_SPARC
     when 'sparc64'
       ARCH_SPARC64
-    when /\Ariscv32/
+    when 'riscv32'
       ARCH_RISCV32LE
-    when /\Ariscv64/
+    when 'riscv64'
       ARCH_RISCV64LE
     when 'loongarch64'
       ARCH_LOONGARCH64
